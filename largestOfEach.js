@@ -1,7 +1,6 @@
-//"groups the arrays into an array of arrays of given length, any remainding go in last array"
-
+//LARGEST OF EACH ARRAY
 //return the largest integer in each array
-const largestOfFour = arr => {
+const largestOfEach = arr => {
   var maxes = [];
   for (let i = 0; i < arr.length; i++) {
     let tempMax = arr[i][0];
@@ -16,7 +15,7 @@ const largestOfFour = arr => {
   return maxes;
 };
 console.log(
-  largestOfFour([
+  largestOfEach([
     [4, 5, 1, 3],
     [13, 27, 18, 26],
     [32, 35, 37, 39],
@@ -25,5 +24,5 @@ console.log(
 );
 
 module.exports = {
-  largestOfFour
+  largestOfEach
 };
