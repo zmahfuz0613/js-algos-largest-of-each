@@ -1,11 +1,7 @@
-let algos = require("../groupArrays.js");
+let algos = require("../largestOfFour.js");
 
-test("groups the arrays into an array of arrays of given length, any remainding go in last array", () => {
-    
-    expect(algos.groupArrays(["a", "b", "c", "d"], 4)).toMatchObject([ [ 'a', 'b', 'c', 'd' ] ])
-    expect(algos.groupArrays(["a", "b", "c", "d"], 3)).toMatchObject([ [ 'a', 'b', 'c' ], [ 'd' ] ])
-    expect(algos.groupArrays(["a", "b", "c", "d"], 2)).toMatchObject([ [ 'a', 'b' ], [ 'c', 'd' ] ])
-    
-  })
+test("returns an array of the largest integer in each array", () => {
+  expect(algos.largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])).toMatchObject([ 5, 27, 39, 1001 ]);
+});
 
   
