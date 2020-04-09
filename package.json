@@ -1,8 +1,8 @@
 {
-  "name": "groupArrays",
+  "name": "largestOfEach",
   "version": "1.0.0",
   "description": "",
-  "main": "groupArrays.js",
+  "main": "largestOfEach.js",
   "scripts": {
     "test": "jest"
   },
