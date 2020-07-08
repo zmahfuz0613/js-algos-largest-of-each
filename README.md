@@ -2,9 +2,9 @@
 
 ## Mini Algorithm Exercise
 
-_Title: "Largest of Each"_
-
-_Difficulty: Medium_
+> _Title: "Largest of Each"_
+>
+> _Difficulty: Medium_
 
 ### Objectives
 
@@ -27,7 +27,7 @@ _i.e.:_
 [5, 27, 39, 1001]
 ```
 
-### Restrictions
+#### Notes
 
 - No `for` loops allowed.
 
