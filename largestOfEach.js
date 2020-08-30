@@ -2,6 +2,13 @@
 
 const largestOfEach = arr => {
 
+  var result = arr.reduce(function(newArr, nestedArray){
+    newArr.push(nestedArray.reduce(function(maxValue, value){
+      return maxValue > value ? maxValue : value;
+    }));
+    return newArr;
+  },[]);
+  return result;
 };
 
 console.log(
